@@ -2,7 +2,7 @@
   <q-layout view="lHh Lpr lFf">
     <q-layout-header>
       <q-toolbar
-        color="secondary"
+        color="teal"
       >
         <q-btn
           flat

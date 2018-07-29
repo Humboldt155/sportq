@@ -50,13 +50,15 @@ module.exports = function (ctx) {
         'QToolbar',
         'QToolbarTitle',
         'QBtn',
+        'QBtnGroup',
         'QIcon',
         'QList',
         'QListHeader',
         'QItem',
         'QItemMain',
         'QItemSide',
-        'QSearch'
+        'QSearch',
+        'QPopover'
       ],
       directives: [
         'Ripple'
