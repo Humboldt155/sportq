@@ -7,9 +7,11 @@
   "author": "Humboldt155 <petr_kozyrev@icloud.com>",
   "private": true,
   "scripts": {
+    "dev ssr": "quasar dev -m ssr",
     "dev": "quasar dev",
     "lint": "eslint --ext .js,.vue src",
-    "test": "echo \"No test specified\" && exit 0"
+    "test": "echo \"No test specified\" && exit 0",
+    "build SPA": "quasar build"
   },
   "dependencies": {
     "axios": "^0.18.0",

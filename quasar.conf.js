@@ -13,7 +13,7 @@ module.exports = function (ctx) {
     extras: [
       ctx.theme.mat ? 'roboto-font' : null,
       // 'material-icons' // optional, you are not bound to it
-      // 'ionicons',
+      'ionicons',
       // 'mdi',
       'fontawesome'
     ],
@@ -42,23 +42,27 @@ module.exports = function (ctx) {
     // framework: 'all' --- includes everything; for dev only!
     framework: {
       components: [
+        'QBtn', // Button
+        'QIcon',
         'QLayout',
         'QLayoutHeader',
         'QLayoutDrawer',
         'QPageContainer',
+        'QPopover',
         'QPage',
+        'QSearch',
+        'QScrollArea',
+        'QTabs',
+        'QTab',
+        'QTabPane',
+        'QRouteTab',
         'QToolbar',
         'QToolbarTitle',
-        'QBtn',
-        'QBtnGroup',
-        'QIcon',
         'QList',
         'QListHeader',
         'QItem',
         'QItemMain',
-        'QItemSide',
-        'QSearch',
-        'QPopover'
+        'QItemSide'
       ],
       directives: [
         'Ripple'
