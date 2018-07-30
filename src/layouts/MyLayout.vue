@@ -1,6 +1,5 @@
 <template>
   <q-layout>
-
     <q-layout-header>
       <q-toolbar :inverted="$q.theme === 'ios'" color="primary" >
         <q-btn
@@ -50,6 +49,10 @@
           <q-item to="/profile">
             <q-item-side icon="far fa-user" />
             <q-item-main label="Профиль"/>
+          </q-item>
+          <q-item to="/settings">
+            <q-item-side icon="fas fa-cog" />
+            <q-item-main label="Настройки"/>
           </q-item>
         </q-list>
       </q-layout-drawer>

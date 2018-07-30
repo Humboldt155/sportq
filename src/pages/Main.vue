@@ -1,12 +1,13 @@
 <template>
     <q-page>
+      <h4>Начтите с поиска</h4>
       <q-search
         label="Начать поиск"
         color="secondary"
         clearable
         v-model="searchModel"
         :debounce="600"
-        placeholder="Например, «Скалодром»"
+        placeholder="Например, «Скалодром в Москве»"
         icon="fas fa-search"
       >
         <q-popover no-focus="true">
@@ -18,6 +19,7 @@
                 <q-btn outline color="teal" label="Тренеры" ></q-btn>
                 <q-btn outline color="teal" label="Аренда" ></q-btn>
                 <q-btn outline color="teal" label="Школы" ></q-btn>
+              <br>
               <br>
             </div>
           </q-popover>

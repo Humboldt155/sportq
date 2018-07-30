@@ -4,7 +4,7 @@ const routes = [
     path: '/',
     component: () => import('layouts/MyLayout.vue'),
     children: [
-      { path: '', component: () => import('pages/Index.vue') },
+      { path: '', component: () => import('pages/Main.vue') },
       { path: '/search', component: () => import('pages/search/search.vue') },
       { path: '/mysport', component: () => import('pages/mysport.vue') },
       { path: '/notifications', component: () => import('pages/notifications.vue') },
@@ -12,7 +12,8 @@ const routes = [
       { path: '/profile', component: () => import('pages/profile.vue') },
       { path: '/bookmarks', component: () => import('pages/bookmarks.vue') },
       { path: '/sportslist', component: () => import('pages/SportsList.vue') },
-      { path: '/schedule', component: () => import('pages/schedule.vue') }
+      { path: '/schedule', component: () => import('pages/schedule.vue') },
+      { path: '/settings', component: () => import('pages/settings.vue') }
     ]
   }
   // {
