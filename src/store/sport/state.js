@@ -1,5 +1,5 @@
 export default {
-  SelectedSports: [],
+  SearchSportsList: [],
   MainTypes: [
     {id: 'T00001', ru_name: 'Сноубординг', en_name: 'Snowboarding', global_type: 'G001', synonims: ['Доска'], short_description: '', picto: 'fas fa-snowflake'},
     {id: 'T00002', ru_name: 'Горные лыжи', en_name: 'Mountain ski', global_type: 'G001', synonims: ['лыжный'], short_description: '', picto: 'fas fa-snowflake'},
@@ -37,14 +37,14 @@ export default {
     {id: 'T00027', ru_name: 'Counter Strike', en_name: 'Counter Strike', global_type: 'G008', synonims: ['контра'], short_description: '', picto: 'fas fa-desktop'},
     {id: 'T00028', ru_name: 'League of Legends', en_name: 'League of Legends', global_type: 'G008', synonims: ['лига'], short_description: '', picto: 'fas fa-desktop'}
   ],
-  GlobalTypes: [
-    {id: 'G001', ru_name: 'Зиний спорт', en_name: 'Winter sports', picto: 'fas fa-snowflake'},
-    {id: 'G002', ru_name: 'Водный спорт', en_name: 'Water sports', picto: 'fas fa-tint'},
-    {id: 'G003', ru_name: 'Городской спорт', en_name: 'Urban sports', picto: 'fas fa-building'},
-    {id: 'G004', ru_name: 'Боевые искусства', en_name: 'Winter sports', picto: 'fas fa-dumbbell'},
-    {id: 'G005', ru_name: 'Танцы', en_name: 'Dances', picto: 'fas fa-dumbbell'},
-    {id: 'G006', ru_name: 'Развитие тела', en_name: 'Body improvement', picto: 'fas fa-dumbbell'},
-    {id: 'G007', ru_name: 'Интеллектуальный спорт', en_name: '', picto: 'fas fa-chess-knight'},
-    {id: 'G008', ru_name: 'Киберспорт', en_name: '', picto: 'fas fa-desktop'}
-  ]
+  GlobalTypes: {
+    'G001': {id: 'G001', ru_name: 'Зимний спорт', en_name: 'Winter sports', picto: 'fas fa-snowflake'},
+    'G002': {id: 'G002', ru_name: 'Водный спорт', en_name: 'Water sports', picto: 'fas fa-tint'},
+    'G003': {id: 'G003', ru_name: 'Городской спорт', en_name: 'Urban sports', picto: 'fas fa-building'},
+    'G004': {id: 'G004', ru_name: 'Боевые искусства', en_name: 'Winter sports', picto: 'fas fa-dumbbell'},
+    'G005': {id: 'G005', ru_name: 'Танцы', en_name: 'Dances', picto: 'fas fa-dumbbell'},
+    'G006': {id: 'G006', ru_name: 'Развитие тела', en_name: 'Body improvement', picto: 'fas fa-dumbbell'},
+    'G007': {id: 'G007', ru_name: 'Интеллектуальный спорт', en_name: '', picto: 'fas fa-chess-knight'},
+    'G008': {id: 'G008', ru_name: 'Киберспорт', en_name: '', picto: 'fas fa-desktop'}
+  }
 }

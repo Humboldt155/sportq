@@ -3,19 +3,32 @@ import Vuex from 'vuex'
 
 Vue.use(Vuex)
 // we first import the module
+
 import sport from './sport'
 
-/*
- * If not building with SSR mode, you can
- * directly export the Store instantiation
- */
+const store = new Vuex.Store({
+  modules: {
+    // then we reference it
+    sport
+  }
+})
 
-export default function (/* { ssrContext } */) {
-  const Store = new Vuex.Store({
-    modules: {
-      sport
-    }
+if (process.env.DEV && module.hot) {
+  module.hot.accept(['./sport'], () => {
+    const newSport = require('./sport').default
+    store.hotUpdate({ modules: { sport: newSport } })
   })
-
-  return Store
 }
+
+export default store
+
+//
+// export default function (/* { ssrContext } */) {
+//   const Store = new Vuex.Store({
+//     modules: {
+//       sport
+//     }
+//   })
+//
+//   return Store
+// }

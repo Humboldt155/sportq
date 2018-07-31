@@ -1,5 +1,5 @@
 <template>
-    <q-page>
+    <q-page padding>
       настройки
     </q-page>
 </template>

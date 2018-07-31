@@ -1,5 +1,5 @@
 <template>
-  <q-page>
+  <q-page padding>
     <h4>
       <div>Петр Козырев</div>
     </h4>
@@ -10,10 +10,10 @@
       <div>фото</div>
     </div>
     <div class="row">
-      <div>настройи</div>
+      <div>Новостная лента</div>
     </div>
     <div class="row">
-      <div>Ссылки на соц. сети</div>
+      <div>Уведомления</div>
     </div>
     <div class="row">
       <div>Моя статистика</div>

@@ -1,5 +1,5 @@
 <template>
-  <q-layout>
+  <q-layout view="hHh Lpr lFf">
     <q-layout-header>
       <q-toolbar :inverted="$q.theme === 'ios'" color="primary" >
         <q-btn
@@ -13,7 +13,7 @@
           SPORT
           <span slot="subtitle">beta</span>
         </q-toolbar-title>
-        <q-btn flat round icon="fas fa-search" to="/search" />
+        <q-btn flat round icon="fas fa-search" to="/" />
         <q-btn flat round icon="far fa-bookmark" to="/bookmarks" />
         <q-btn flat round icon="far fa-comment-alt" to="/notifications" />
         <q-btn flat round icon="far fa-user" to="/profile" />
@@ -22,7 +22,7 @@
       <q-layout-drawer side="left" v-model="drawer">
         <q-list no-border link inset-separator>
           <q-list-header>SPORT</q-list-header>
-          <q-item to="/search">
+          <q-item to="/">
             <q-item-side icon="fas fa-search" />
             <q-item-main label="Поиск"/>
           </q-item>

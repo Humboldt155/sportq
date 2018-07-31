@@ -1,4 +1,4 @@
-
-export function getSportsList (state) {
-  return 1
+/*
+export function someGetter (state) {
 }
+*/
