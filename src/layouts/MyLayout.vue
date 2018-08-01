@@ -54,6 +54,10 @@
             <q-item-side icon="fas fa-cog" />
             <q-item-main label="Настройки"/>
           </q-item>
+          <q-item to="/placeCard">
+            <q-item-side icon="far fa-clock" />
+            <q-item-main label="Место"/>
+          </q-item>
         </q-list>
       </q-layout-drawer>
     </q-layout-header>

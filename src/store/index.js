@@ -5,11 +5,13 @@ Vue.use(Vuex)
 // we first import the module
 
 import sport from './sport'
+import place from './place'
 
 const store = new Vuex.Store({
   modules: {
     // then we reference it
-    sport
+    sport,
+    place
   }
 })
 

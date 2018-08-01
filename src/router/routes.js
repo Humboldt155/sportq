@@ -13,7 +13,8 @@ const routes = [
       { path: '/bookmarks', component: () => import('pages/bookmarks.vue') },
       { path: '/sportslist', component: () => import('pages/SportsList.vue') },
       { path: '/schedule', component: () => import('pages/schedule.vue') },
-      { path: '/settings', component: () => import('pages/settings.vue') }
+      { path: '/settings', component: () => import('pages/settings.vue') },
+      { path: '/placeCard', component: () => import('pages/placeCard.vue') }
     ]
   }
   // {
