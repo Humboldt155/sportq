@@ -2,8 +2,8 @@ export default {
   currentPlace: {
     name: 'Фитнес-клуб "Gold Gym" Динамо',
     description: 'Сеть фитнес-клубов бизнес класса!',
-    companyLogo: 'src/assets/logo.png',
-    companyPhoto: 'src/assets/gold_gym_main.jpg',
+    companyLogo: '/Users/petrkozyrev/workspace/sportq/src/assets/logo.png',
+    companyPhoto: '/Users/petrkozyrev/workspace/sportq/src/assets/gold_gym_main.jpg',
     distance: '560 м',
     contacts: {
       address: 'Ленинградский пр., 31, Москва, 125284',
@@ -20,7 +20,7 @@ export default {
       {name: 'Абонемент на 3 мес.', value: '20 000 руб.'},
       {name: 'Абонемент на 1 год.', value: '50 000 руб.'}
     ],
-    sports: ['Фитнесс', 'Бассейн'],
+    sports: ['Фитнесс', 'Бассейн', 'Йога'],
     trainers: [
       {name: 'Иван Иванов', rating: 3.5},
       {name: 'Дмитрий Дмитриев', rating: 4.6},

@@ -45,8 +45,11 @@ module.exports = function (ctx) {
         'QAutocomplete',
         'QBtn', // Button
         'QIcon',
-        'QLayout',
         'QInput',
+        'QItem',
+        'QItemSide',
+        'QItemTile',
+        'QItemMain',
         'QField',
         'QChip',
         'QCard',
@@ -55,9 +58,13 @@ module.exports = function (ctx) {
         'QCardMedia',
         'QCardSeparator',
         'QCardActions',
+        'QCollapsible',
         'QBtnToggle',
         'QCheckbox',
         'QLayoutHeader',
+        'QList',
+        'QListHeader',
+        'QLayout',
         'QModal',
         'QModalLayout',
         'QLayoutDrawer',
@@ -67,6 +74,7 @@ module.exports = function (ctx) {
         'QOptionGroup',
         'QRange',
         'QRadio',
+        'QRating',
         'QSearch',
         'QSelect',
         'QScrollArea',
@@ -77,12 +85,7 @@ module.exports = function (ctx) {
         'QToggle',
         'QRouteTab',
         'QToolbar',
-        'QToolbarTitle',
-        'QList',
-        'QListHeader',
-        'QItem',
-        'QItemMain',
-        'QItemSide'
+        'QToolbarTitle'
       ],
       directives: [
         'Ripple'

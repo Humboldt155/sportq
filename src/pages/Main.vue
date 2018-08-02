@@ -117,7 +117,7 @@
                 round
                 dense
                 @click="layoutFilters = false"
-                icon="reply"
+                icon="fas fa-arrow-left"
               />
               <q-toolbar-title>
                 Фильтры
